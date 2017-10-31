@@ -1,0 +1,90 @@
+2017-10-31 01:26:27,221 0    [http-nio-8080-exec-10] INFO  edu.matc.controller.UserService  - -- starting getMessage --
+2017-10-31 01:26:27,232 11   [http-nio-8080-exec-10] INFO  edu.matc.controller.UserService  - -- created UsersDao --
+2017-10-31 01:26:27,233 12   [http-nio-8080-exec-10] INFO  edu.matc.persistence.UsersDao  - ----- Entered getAllUsers ----
+2017-10-31 01:26:27,611 390  [http-nio-8080-exec-10] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-10-31 01:26:27,652 431  [http-nio-8080-exec-10] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.3.11.Final}
+2017-10-31 01:26:27,662 441  [http-nio-8080-exec-10] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+2017-10-31 01:26:27,672 451  [http-nio-8080-exec-10] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+2017-10-31 01:26:27,740 519  [http-nio-8080-exec-10] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2017-10-31 01:26:27,740 519  [http-nio-8080-exec-10] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2017-10-31 01:26:27,938 717  [http-nio-8080-exec-10] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
+2017-10-31 01:26:28,244 1023 [http-nio-8080-exec-10] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-10-31 01:26:28,261 1040 [http-nio-8080-exec-10] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/sommerBudgetTest]
+2017-10-31 01:26:28,265 1044 [http-nio-8080-exec-10] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=root, password=****}
+2017-10-31 01:26:28,265 1044 [http-nio-8080-exec-10] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
+2017-10-31 01:26:28,267 1046 [http-nio-8080-exec-10] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-10-31 01:26:28,895 1674 [http-nio-8080-exec-10] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-31 01:26:29,377 2156 [http-nio-8080-exec-10] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-10-31 01:26:29,384 2163 [http-nio-8080-exec-10] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+2017-10-31 01:26:30,301 3080 [http-nio-8080-exec-10] INFO  edu.matc.controller.UserService  - -- created list of users --
+2017-10-31 01:26:30,302 3081 [http-nio-8080-exec-10] INFO  edu.matc.controller.UserService  - [edu.matc.entity.Users@69e781e7, edu.matc.entity.Users@fbed6be9, edu.matc.entity.Users@76f01780, edu.matc.entity.Users@78b307a0, edu.matc.entity.Users@7a75f7c0, edu.matc.entity.Users@7c38e7e0]
+2017-10-31 01:30:34,172 0    [http-nio-8080-exec-1] INFO  edu.matc.controller.UserService  - -- starting getMessage --
+2017-10-31 01:30:34,177 5    [http-nio-8080-exec-1] INFO  edu.matc.controller.UserService  - -- created UsersDao --
+2017-10-31 01:30:34,177 5    [http-nio-8080-exec-1] INFO  edu.matc.persistence.UsersDao  - ----- Entered getAllUsers ----
+2017-10-31 01:30:34,525 353  [http-nio-8080-exec-1] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-10-31 01:30:34,549 377  [http-nio-8080-exec-1] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.3.11.Final}
+2017-10-31 01:30:34,562 390  [http-nio-8080-exec-1] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+2017-10-31 01:30:34,569 397  [http-nio-8080-exec-1] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+2017-10-31 01:30:34,609 437  [http-nio-8080-exec-1] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2017-10-31 01:30:34,610 438  [http-nio-8080-exec-1] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2017-10-31 01:30:34,749 577  [http-nio-8080-exec-1] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
+2017-10-31 01:30:35,022 850  [http-nio-8080-exec-1] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-10-31 01:30:35,030 858  [http-nio-8080-exec-1] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/sommerBudgetTest]
+2017-10-31 01:30:35,030 858  [http-nio-8080-exec-1] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=root, password=****}
+2017-10-31 01:30:35,031 859  [http-nio-8080-exec-1] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
+2017-10-31 01:30:35,033 861  [http-nio-8080-exec-1] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-10-31 01:30:35,599 1427 [http-nio-8080-exec-1] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-31 01:30:36,171 1999 [http-nio-8080-exec-1] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-10-31 01:30:36,195 2023 [http-nio-8080-exec-1] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+2017-10-31 01:30:37,215 3043 [http-nio-8080-exec-1] INFO  edu.matc.controller.UserService  - -- created list of users --
+2017-10-31 01:30:37,216 3044 [http-nio-8080-exec-1] INFO  edu.matc.controller.UserService  - [edu.matc.entity.Users@69e781e7, edu.matc.entity.Users@fbed6be9, edu.matc.entity.Users@76f01780, edu.matc.entity.Users@78b307a0, edu.matc.entity.Users@7a75f7c0, edu.matc.entity.Users@7c38e7e0]
+2017-10-31 01:41:28,409 1    [http-nio-8080-exec-10] INFO  edu.matc.controller.UserService  - -- starting getMessage --
+2017-10-31 01:41:28,414 6    [http-nio-8080-exec-10] INFO  edu.matc.controller.UserService  - -- created UsersDao --
+2017-10-31 01:41:28,414 6    [http-nio-8080-exec-10] INFO  edu.matc.persistence.UsersDao  - ----- Entered getAllUsers ----
+2017-10-31 01:41:28,770 362  [http-nio-8080-exec-10] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-10-31 01:41:28,802 394  [http-nio-8080-exec-10] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.3.11.Final}
+2017-10-31 01:41:28,815 407  [http-nio-8080-exec-10] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+2017-10-31 01:41:28,818 410  [http-nio-8080-exec-10] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+2017-10-31 01:41:28,894 486  [http-nio-8080-exec-10] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2017-10-31 01:41:28,894 486  [http-nio-8080-exec-10] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2017-10-31 01:41:29,069 661  [http-nio-8080-exec-10] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
+2017-10-31 01:41:29,370 962  [http-nio-8080-exec-10] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-10-31 01:41:29,376 968  [http-nio-8080-exec-10] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/sommerBudgetTest]
+2017-10-31 01:41:29,379 971  [http-nio-8080-exec-10] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=root, password=****}
+2017-10-31 01:41:29,380 972  [http-nio-8080-exec-10] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
+2017-10-31 01:41:29,381 973  [http-nio-8080-exec-10] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-10-31 01:41:30,428 2020 [http-nio-8080-exec-10] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-31 01:41:31,052 2644 [http-nio-8080-exec-10] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-10-31 01:41:31,070 2662 [http-nio-8080-exec-10] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+2017-10-31 01:41:32,192 3784 [http-nio-8080-exec-10] INFO  edu.matc.controller.UserService  - -- created list of users --
+2017-10-31 01:41:32,197 3789 [http-nio-8080-exec-10] INFO  edu.matc.controller.UserService  - [edu.matc.entity.Users@69e781e7, edu.matc.entity.Users@fbed6be9, edu.matc.entity.Users@76f01780, edu.matc.entity.Users@78b307a0, edu.matc.entity.Users@7a75f7c0, edu.matc.entity.Users@7c38e7e0]
+2017-10-31 01:41:41,020 12612 [http-nio-8080-exec-1] INFO  edu.matc.controller.UserService  - -- starting getMessage --
+2017-10-31 01:41:41,022 12614 [http-nio-8080-exec-1] INFO  edu.matc.controller.UserService  - -- created UsersDao --
+2017-10-31 01:41:41,022 12614 [http-nio-8080-exec-1] INFO  edu.matc.persistence.UsersDao  - ----- Entered getAllUsers ----
+2017-10-31 01:41:41,062 12654 [http-nio-8080-exec-1] INFO  edu.matc.controller.UserService  - -- created list of users --
+2017-10-31 01:41:41,063 12655 [http-nio-8080-exec-1] INFO  edu.matc.controller.UserService  - [edu.matc.entity.Users@69e781e7, edu.matc.entity.Users@fbed6be9, edu.matc.entity.Users@76f01780, edu.matc.entity.Users@78b307a0, edu.matc.entity.Users@7a75f7c0, edu.matc.entity.Users@7c38e7e0]
+2017-10-31 01:43:47,567 0    [http-nio-8080-exec-10] INFO  edu.matc.controller.UserService  - -- starting getMessage --
+2017-10-31 01:43:47,581 14   [http-nio-8080-exec-10] INFO  edu.matc.controller.UserService  - -- created UsersDao --
+2017-10-31 01:43:47,581 14   [http-nio-8080-exec-10] INFO  edu.matc.persistence.UsersDao  - ----- Entered getAllUsers ----
+2017-10-31 01:43:47,959 392  [http-nio-8080-exec-10] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-10-31 01:43:48,000 433  [http-nio-8080-exec-10] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.3.11.Final}
+2017-10-31 01:43:48,006 439  [http-nio-8080-exec-10] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+2017-10-31 01:43:48,029 462  [http-nio-8080-exec-10] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+2017-10-31 01:43:48,092 525  [http-nio-8080-exec-10] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2017-10-31 01:43:48,092 525  [http-nio-8080-exec-10] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2017-10-31 01:43:48,205 638  [http-nio-8080-exec-10] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
+2017-10-31 01:43:48,513 946  [http-nio-8080-exec-10] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-10-31 01:43:48,518 951  [http-nio-8080-exec-10] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/sommerBudgetTest]
+2017-10-31 01:43:48,518 951  [http-nio-8080-exec-10] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=root, password=****}
+2017-10-31 01:43:48,518 951  [http-nio-8080-exec-10] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
+2017-10-31 01:43:48,522 955  [http-nio-8080-exec-10] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-10-31 01:43:49,069 1502 [http-nio-8080-exec-10] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-10-31 01:43:49,673 2106 [http-nio-8080-exec-10] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-10-31 01:43:49,690 2123 [http-nio-8080-exec-10] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+2017-10-31 01:43:51,026 3459 [http-nio-8080-exec-10] INFO  edu.matc.controller.UserService  - -- created list of users --
+2017-10-31 01:43:51,027 3460 [http-nio-8080-exec-10] INFO  edu.matc.controller.UserService  - [edu.matc.entity.Users@69e781e7, edu.matc.entity.Users@fbed6be9, edu.matc.entity.Users@76f01780, edu.matc.entity.Users@78b307a0, edu.matc.entity.Users@7a75f7c0, edu.matc.entity.Users@7c38e7e0]
+2017-10-31 01:44:12,774 25207 [http-nio-8080-exec-4] INFO  edu.matc.controller.UserService  - -- starting getMessage --
+2017-10-31 01:44:12,775 25208 [http-nio-8080-exec-4] INFO  edu.matc.controller.UserService  - -- created UsersDao --
+2017-10-31 01:44:12,775 25208 [http-nio-8080-exec-4] INFO  edu.matc.persistence.UsersDao  - ----- Entered getAllUsers ----
+2017-10-31 01:44:12,792 25225 [http-nio-8080-exec-4] INFO  edu.matc.controller.UserService  - -- created list of users --
+2017-10-31 01:44:12,792 25225 [http-nio-8080-exec-4] INFO  edu.matc.controller.UserService  - [edu.matc.entity.Users@69e781e7, edu.matc.entity.Users@fbed6be9, edu.matc.entity.Users@76f01780, edu.matc.entity.Users@78b307a0, edu.matc.entity.Users@7a75f7c0, edu.matc.entity.Users@7c38e7e0]

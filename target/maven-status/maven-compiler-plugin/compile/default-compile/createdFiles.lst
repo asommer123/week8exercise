@@ -1,0 +1,6 @@
+edu/matc/controller/UserApplication.class
+edu/matc/persistence/SessionFactoryProvider.class
+edu/matc/entity/UserRole.class
+edu/matc/entity/Users.class
+edu/matc/controller/UserService.class
+edu/matc/persistence/UsersDao.class
