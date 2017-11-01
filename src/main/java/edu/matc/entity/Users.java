@@ -119,9 +119,7 @@ public class Users implements Serializable {
 
     @OneToMany(mappedBy = "usersByAccountId")
     @Cascade({CascadeType.SAVE_UPDATE, CascadeType.DELETE})
-    //@JsonManagedReference
-    //@JsonIgnore
-    @JsonBackReference
+    @JsonManagedReference
     public Set<UserRole> getUserRoleByUserName() {
         return userRoleByUserName;
     }

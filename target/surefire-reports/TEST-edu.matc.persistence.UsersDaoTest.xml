@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="edu.matc.persistence.UsersDaoTest" time="3.554" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="edu.matc.persistence.UsersDaoTest" time="1.765" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2017.2.4"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -32,7 +32,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="4.4.0-97-generic"/>
+    <property name="os.version" value="4.4.0-98-generic"/>
     <property name="user.home" value="/home/student"/>
     <property name="user.timezone" value="America/Chicago"/>
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
@@ -61,6 +61,6 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="edu.matc.persistence.UsersDaoTest" name="getAllUsers" time="3.491"/>
-  <testcase classname="edu.matc.persistence.UsersDaoTest" name="getUser" time="0.063"/>
+  <testcase classname="edu.matc.persistence.UsersDaoTest" name="getAllUsers" time="1.748"/>
+  <testcase classname="edu.matc.persistence.UsersDaoTest" name="getUser" time="0.017"/>
 </testsuite>

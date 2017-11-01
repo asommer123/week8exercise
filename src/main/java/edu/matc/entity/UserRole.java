@@ -63,9 +63,7 @@ public class UserRole implements Serializable {
 
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "user_name", referencedColumnName = "user_name", nullable = false)
-    //@JsonBackReference
-    //@JsonIgnore
-    @JsonManagedReference
+    @JsonBackReference
     public Users getUsersByAccountId() {
         return usersByAccountId;
     }
