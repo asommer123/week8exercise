@@ -1,5 +1,6 @@
 package edu.matc.entity;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 
@@ -119,7 +120,8 @@ public class Users implements Serializable {
     @OneToMany(mappedBy = "usersByAccountId")
     @Cascade({CascadeType.SAVE_UPDATE, CascadeType.DELETE})
     //@JsonManagedReference
-    @JsonIgnore
+    //@JsonIgnore
+    @JsonBackReference
     public Set<UserRole> getUserRoleByUserName() {
         return userRoleByUserName;
     }

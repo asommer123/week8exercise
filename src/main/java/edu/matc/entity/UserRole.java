@@ -3,6 +3,7 @@ package edu.matc.entity;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
@@ -63,7 +64,8 @@ public class UserRole implements Serializable {
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "user_name", referencedColumnName = "user_name", nullable = false)
     //@JsonBackReference
-    @JsonIgnore
+    //@JsonIgnore
+    @JsonManagedReference
     public Users getUsersByAccountId() {
         return usersByAccountId;
     }
